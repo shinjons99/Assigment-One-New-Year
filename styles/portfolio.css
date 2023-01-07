@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&family=Open+Sans:wght@400;600&family=Work+Sans:wght@400;600;700&display=swap");
+/* Universal style */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+/* common style for re-use */
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (banner3.png). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/images/banner/banner3.png);
+
+  /* Set a specific height */
+  height: 100%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+/* Place text in the middle of the image */
+.hero-text {
+  padding-top: 216px;
+  text-align: right;
+  position: absolute;
+  top: 216px;
+  left: 845px;
+  transform: translate(-50%, -50%);
+  color: white;
+  margin-left: 130px;
+}
+
+.btn-primary {
+  color: #005fac;
+  height: 64px;
+  background: #ffffff;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 18px 35px;
+  border: 0;
+  text-transform: capitalize;
+}
+.hero-title {
+  width: 525px;
+  height: 228px;
+  font-size: 65px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.hero-description {
+  height: 78px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+/* section one style start from here */
+.section-one-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 130px;
+}
+.section-one-container .image {
+  width: 569px;
+  height: 723.3px;
+  margin-left: 100px;
+}
+.section-one {
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  margin-right: 100px;
+}
+.section-one-title {
+  margin-top: 240px;
+  font-weight: 700;
+  font-size: 40px;
+}
+.section-one-description {
+  padding-top: 24px;
+  font-weight: 400;
+  font-size: 16px;
+}
+.section-one-checklist {
+  padding-top: 16px;
+}
+
+/* Section-Two style start from here */
+.section-title-two {
+  margin-top: 130px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 40px;
+}
+.skills-container {
+  display: flex;
+  gap: 40px;
+  padding-left: 230px;
+  padding-bottom: 130px;
+}
+.skill {
+  text-align: center;
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 30px;
+}
+.skill-title {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.skill-description {
+  color: #757575;
+}
+/* Section Three start form here */
+.section-three {
+  background-image: linear-gradient(
+      to right,
+      rgb(0, 95, 172),
+      rgba(0, 95, 172, 0)
+    ),
+    url(/images/watch.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 8px;
+  width: 1140px;
+  height: 300px;
+  margin-left: 120px;
+  margin-bottom: 230px;
+}
+.section-three-content {
+  width: 460px;
+  padding: 60px 617px 64px 60px;
+}
+.section-three-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+/* Resume section  style form here */
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.resume-content {
+  display: flex;
+  gap: 24px;
+}
+.resume-content-one {
+  margin-left: 40px;
+}
+.resume-title {
+  font-weight: 700;
+  font-size: 30px;
+}
+.resume-item {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.resume .title {
+  font-weight: 700;
+  font-size: 25px;
+  color: #474747;
+  margin-bottom: 10px;
+}
+.resume .sub-title {
+  color: #757575;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.resume .description {
+  color: #757575;
+}
+.resume-button {
+  margin-top: 50px;
+  text-align: center;
+}
+.btn-resume {
+  color: #ffffff;
+  height: 64px;
+  background: #005fac;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 18px 35px;
+  border: 0;
+  text-transform: capitalize;
+  margin-bottom: 120px;
+}
+/* footer style start from here */
+
+.footer {
+  padding-top: 130px;
+  background-color: #151414;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-content {
+  width: 485px;
+  height: 317px;
+  padding-left: 230px;
+}
+.footer-content a {
+  width: 47px;
+  height: 46px;
+  padding-right: 20px;
+}
+.footer-title-one {
+  font-weight: 700;
+  font-size: 45px;
+}
+.footer-description {
+  width: 485px;
+  font-weight: 400;
+  font-size: 16px;
+}
+.footer-content-two {
+  margin-right: 150px;
+}
+.footer-title {
+  font-weight: 600;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+input {
+  width: 325px;
+  height: 64px;
+  background-color: #151414;
+  border-radius: 8px;
+}
+input,
+placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  padding-left: 10px;
+  color: #f3f3f3;
+}
+.btn-subscribe {
+  background-color: #005fac;
+  border-radius: 8px;
+  width: 170px;
+  height: 64px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+}
